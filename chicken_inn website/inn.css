@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color:black;
+}
+.logo{
+    border-radius: 300px;
+    padding-top: 5px;
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.display--img{
+    height: 300px;
+    width:300px;
+    padding:10px;
+    border-radius: 300px;
+}
+.move{
+    background-color: rgb(234, 234, 11);
+    width: 40px;
+    padding: 10px;
+}
+.info{
+    display: flex;
+    color:blue;
+    align-items: center;
+    justify-content: center;
+
+}
+.info a{
+    padding: 20px;
+}
